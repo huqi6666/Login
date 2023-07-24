@@ -1,0 +1,144 @@
+/*公共样式*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*标签样式*/
+body{
+    background: #d2d3d7;
+}
+span{
+    font-family: "黑体";
+}
+
+/*主框架样式*/
+.main{
+    margin-top: 4%;
+    /* margin-bottom: 12.8%; */
+    margin-left: 19.9%;
+    /* margin-right: 19.9%; */
+    /* background-color:#2D3250 ; */
+    background-color:#2D3250 ;
+    height: 650px;
+    width: 60.2%;
+    border-radius: 50px;
+    /*垂直位置  水平位置  光影  颜色*/
+    box-shadow: 0px 0px 15px #1f243c;/*投影*/
+}
+
+/*左半部分*/
+.left{
+    float: left;
+    width: 48%;
+    /* background-color: aliceblue; */
+    /* position: relative; */
+    display: block;
+    border-radius: 50px 0 0 50px;
+}
+
+/*第一层*/
+.left .floor1{
+    margin-top: 10%;
+    margin-left: 17%;
+}
+
+.left .floor1 .log{
+    font-size: 18px;
+    color: #fbfbfb;
+    font-family: "黑体";
+}
+
+/*第二层*/
+.left .floor2{
+    margin-top: 15%;
+    margin-left: 17%;
+}
+.left .floor2 .greet{
+    font-size: 35px;
+    color: #FFFFFF;
+    Letter-spacing:15px;
+}
+.left .floor2 .courtesy{
+    color: #FFFFFF;
+    font-size: 4px;
+}
+
+/*第三层*/
+.left .floor3{
+    margin-left: 17%;
+    margin-top: 10%;
+}
+.left .floor3 .input1{
+    width: 79%;
+    height:60px;
+    background-color: #424769;
+    border: 0 solid;
+    outline: none;
+    font-size: 17px;
+    z-index: 1;
+    margin-top: 1%;
+}
+.left .floor3 .clean1{
+    border: none;
+    background-color:rgba(233, 233, 233,0);
+    z-index: 2;
+    margin-left: -10%;
+    color: #FFFFFF;
+}
+
+/*第四层*/
+.left .floor4{
+    margin-left: 17%;
+    margin-top: 3%;
+    margin-right: 17%;
+    color: #FFFFFF;
+}
+.left .floor4 .password1{
+    float: left;
+}
+.left .floor4 .password2{
+    float: right;
+}
+.left .floor4 .check{
+    width: 15px;
+    height: 15px;
+}
+
+
+/*第五层*/
+.left .floor5{
+    margin-left: 17%;
+    margin-top: 15%;
+}
+.left .floor5 .button1{
+    width: 150px;
+    height: 40px;
+    background-color:#F9B17A ;
+    border-radius: 10px;
+}
+
+/*第六层*/
+.left .floor6{
+    margin-left: 17%;
+    margin-top: 10%;
+}
+.left .floor6 .change1{
+    color: #FFFFFF;
+    font-size: 15px;
+}
+.img1{
+    height: 20px;
+    width: 20px;
+
+}
+
+/*右半部分*/
+.right{
+    float: right;
+    width: 52%;
+    background-color: bisque;
+    height: 100%;
+    border-radius:0 50px 50px 0;
+}
+
